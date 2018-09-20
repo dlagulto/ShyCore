@@ -11,7 +11,7 @@ namespace events.tac.local.Business
 {
     public class StoriesProvider
     {
-        private const int PageSize = 4;
+        private const int PageSize = 5;
         public ChampionsList GetChampionsList(int pageNo)
         {
             var indexname =
