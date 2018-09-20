@@ -1,0 +1,60 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<!--[if IE 9]><html lang="en" class="ie9 no-js"><![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="keywords" content="" />
+    <meta name="description" content="@Html.Sitecore().Field("MetaDescription", new { DisableWebEdit = true })" />
+    <title>@Html.Sitecore().Field("MetaTitle", new { DisableWebEdit = true })</title>
+    <!-- Styling -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- XPE-specific CSS -->
+    <link href="~/Assets/mvcEditor.css" rel="stylesheet" />
+    <!-- Javascript -->
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="~/Css/vendor.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/Css/niteflight.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/Css/addition.css">
+    <link rel="stylesheet" type="text/css" href="~/Css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="~/Css/Difficulty.css">
+</head>
+
+<body class="header-static ">
+    <div id="main-container">
+        <!-- [Page Header] -->
+        @Html.Sitecore().Rendering("/sitecore/layout/Renderings/LeagueOfSitecore/Stories/Navigation/Navigation")
+        <!-- [/Page Header] -->
+        <!-- [Page Content] -->
+        <main>
+            @Html.Sitecore().Placeholder("section-placeholder")
+            <a href="#">Go back to top</a>
+        </main>
+        <!-- [/Page Content] -->
+        <!-- [Footer Content] -->
+        @Html.Sitecore().Rendering("/sitecore/layout/Renderings/LeagueOfSitecore/Stories/Navigation/Footer")
+        <!-- [/Footer Content] -->
+    </div>
+    <script src="~/Scripts/Sitecore.Foundation.Theming.min.js"></script>
+    <script src="~/Scripts/Navigation.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>http://sc9.sc/</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Config/Include/LeagueOfSitecore/Stories/asd.config">
+      <publishTime>09/19/2018 18:26:51</publishTime>
+    </File>
+    <File Include="App_Config/Include/LeagueOfSitecore/Stories/Events.DefaultIndexConfiguration.config">
+      <publishTime>09/19/2018 16:47:48</publishTime>
+    </File>
+    <File Include="App_Config/Include/LeagueOfSitecore/Stories/Solr.Events.Master.Index.config">
+      <publishTime>09/19/2018 16:24:51</publishTime>
+    </File>
+    <File Include="App_Config/Include/LeagueOfSitecore/Stories/Solr.Events.Web.Index.config">
+      <publishTime>09/19/2018 16:11:06</publishTime>
+    </File>
+    <File Include="App_Config/Include/LeagueOfSitecore/Stories/Solr.Stories.Master.Index.config">
+      <publishTime>09/19/2018 16:24:51</publishTime>
+    </File>
+    <File Include="App_Config/Include/LeagueOfSitecore/Stories/Stories.DefaultIndexConfiguration.config">
+      <publishTime>09/19/2018 15:57:33</publishTime>
+    </File>
+    <File Include="App_Config/Include/LeagueOfSitecore/Stories/StoriesSiteDefinition.config">
+      <publishTime>09/19/2018 16:45:20</publishTime>
+    </File>
+    <File Include="Areas/Importer/Views/Shared/Layout.cshtml">
+      <publishTime>09/19/2018 08:22:42</publishTime>
+    </File>
+    <File Include="Areas/Importer/Views/Shared/_Layout.cshtml">
+      <publishTime>09/19/2018 08:18:03</publishTime>
+    </File>
+    <File Include="Areas/Importer/Views/Stories/Index.cshtml">
+      <publishTime>09/19/2018 08:23:35</publishTime>
+    </File>
+    <File Include="Areas/Importer/Views/web.config">
+      <publishTime>09/19/2018 08:15:12</publishTime>
+    </File>
+    <File Include="Areas/Importer/Views/_ViewStart.cshtml">
+      <publishTime>09/19/2018 08:18:02</publishTime>
+    </File>
+    <File Include="bin/events.tac.local.dll">
+      <publishTime>09/20/2018 11:24:44</publishTime>
+    </File>
+    <File Include="bin/events.tac.local.pdb">
+      <publishTime>09/20/2018 11:24:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/13/2018 10:33:23</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>09/13/2018 10:33:25</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>09/13/2018 10:33:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>09/13/2018 10:33:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>09/13/2018 10:33:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>09/13/2018 10:33:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>09/13/2018 10:33:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>09/13/2018 10:33:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>09/13/2018 10:33:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>09/13/2018 10:33:25</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>09/13/2018 10:33:25</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>09/13/2018 10:33:25</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>09/13/2018 10:33:25</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>09/13/2018 10:33:25</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>09/13/2018 10:33:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>09/13/2018 10:33:21</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>09/13/2018 10:33:21</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>09/13/2018 10:33:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>09/13/2018 10:33:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>09/13/2018 10:33:22</publishTime>
+    </File>
+    <File Include="bin/TAC.Utils.dll">
+      <publishTime>09/20/2018 11:24:43</publishTime>
+    </File>
+    <File Include="bin/TAC.Utils.pdb">
+      <publishTime>09/20/2018 11:24:43</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>09/17/2018 09:59:38</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>09/17/2018 09:59:38</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>09/17/2018 09:59:28</publishTime>
+    </File>
+    <File Include="Controllers/BreadcrumbController.cs">
+      <publishTime>09/18/2018 10:26:02</publishTime>
+    </File>
+    <File Include="Controllers/CarouselController.cs">
+      <publishTime>09/17/2018 14:55:36</publishTime>
+    </File>
+    <File Include="Controllers/NavigationController.cs">
+      <publishTime>09/17/2018 19:32:18</publishTime>
+    </File>
+    <File Include="Css/addition.css">
+      <publishTime>09/13/2018 10:33:08</publishTime>
+    </File>
+    <File Include="Css/archi-css1.css">
+      <publishTime>09/13/2018 14:20:48</publishTime>
+    </File>
+    <File Include="Css/bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.eot">
+      <publishTime>09/13/2018 10:33:09</publishTime>
+    </File>
+    <File Include="Css/bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.svg">
+      <publishTime>09/13/2018 10:33:09</publishTime>
+    </File>
+    <File Include="Css/bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf">
+      <publishTime>09/13/2018 10:33:09</publishTime>
+    </File>
+    <File Include="Css/bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff">
+      <publishTime>09/13/2018 10:33:09</publishTime>
+    </File>
+    <File Include="Css/bower_components/bootstrap-sass/assets/fonts/bootstrap/glyphicons-halflings-regular.woff2">
+      <publishTime>09/13/2018 10:33:09</publishTime>
+    </File>
+    <File Include="Css/bower_components/font-awesome/fonts/fontawesome-webfont.eot">
+      <publishTime>09/13/2018 10:33:09</publishTime>
+    </File>
+    <File Include="Css/bower_components/font-awesome/fonts/fontawesome-webfont.svg">
+      <publishTime>09/13/2018 10:33:09</publishTime>
+    </File>
+    <File Include="Css/bower_components/font-awesome/fonts/fontawesome-webfont.ttf">
+      <publishTime>09/13/2018 10:33:09</publishTime>
+    </File>
+    <File Include="Css/bower_components/font-awesome/fonts/fontawesome-webfont.woff">
+      <publishTime>09/13/2018 10:33:09</publishTime>
+    </File>
+    <File Include="Css/bower_components/font-awesome/fonts/fontawesome-webfont.woff2">
+      <publishTime>09/13/2018 10:33:09</publishTime>
+    </File>
+    <File Include="Css/bower_components/font-awesome/fonts/FontAwesome.otf">
+      <publishTime>09/13/2018 10:33:09</publishTime>
+    </File>
+    <File Include="Css/button-make-black.css">
+      <publishTime>09/13/2018 18:38:22</publishTime>
+    </File>
+    <File Include="Css/Difficulty.css">
+      <publishTime>09/13/2018 10:33:08</publishTime>
+    </File>
+    <File Include="Css/font-awesome.min.css">
+      <publishTime>09/13/2018 10:33:08</publishTime>
+    </File>
+    <File Include="Css/mouse-on-hover.css">
+      <publishTime>09/16/2018 14:27:53</publishTime>
+    </File>
+    <File Include="Css/niteflight.min.css">
+      <publishTime>09/13/2018 10:33:08</publishTime>
+    </File>
+    <File Include="Css/vendor.min.css">
+      <publishTime>09/13/2018 10:33:08</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-700.eot">
+      <publishTime>09/13/2018 10:33:09</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-700.svg">
+      <publishTime>09/13/2018 10:33:09</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-700.ttf">
+      <publishTime>09/13/2018 10:33:09</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-700.woff">
+      <publishTime>09/13/2018 10:33:09</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-700.woff2">
+      <publishTime>09/13/2018 10:33:09</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-italic.eot">
+      <publishTime>09/13/2018 10:33:09</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-italic.svg">
+      <publishTime>09/13/2018 10:33:09</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-italic.ttf">
+      <publishTime>09/13/2018 10:33:09</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-italic.woff">
+      <publishTime>09/13/2018 10:33:09</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-italic.woff2">
+      <publishTime>09/13/2018 10:33:09</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-regular.eot">
+      <publishTime>09/13/2018 10:33:09</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-regular.svg">
+      <publishTime>09/13/2018 10:33:09</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-regular.ttf">
+      <publishTime>09/13/2018 10:33:09</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-regular.woff">
+      <publishTime>09/13/2018 10:33:09</publishTime>
+    </File>
+    <File Include="Fonts/bitter-v7-latin-regular.woff2">
+      <publishTime>09/13/2018 10:33:09</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.eot">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.svg">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.ttf">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.woff">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.woff2">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/FontAwesome.otf">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/glyphicons-halflings-regular.eot">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/glyphicons-halflings-regular.svg">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-300.eot">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-300.svg">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-300.ttf">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-300.woff">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-300.woff2">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-300italic.eot">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-300italic.svg">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-300italic.ttf">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-300italic.woff">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-300italic.woff2">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-600.eot">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-600.svg">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-600.ttf">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-600.woff">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-600.woff2">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-600italic.eot">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-600italic.svg">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-600italic.ttf">
+      <publishTime>09/13/2018 10:33:10</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-600italic.woff">
+      <publishTime>09/13/2018 10:33:11</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-600italic.woff2">
+      <publishTime>09/13/2018 10:33:11</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-700.eot">
+      <publishTime>09/13/2018 10:33:11</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-700.svg">
+      <publishTime>09/13/2018 10:33:11</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-700.ttf">
+      <publishTime>09/13/2018 10:33:11</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-700.woff">
+      <publishTime>09/13/2018 10:33:11</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-700.woff2">
+      <publishTime>09/13/2018 10:33:11</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-700italic.eot">
+      <publishTime>09/13/2018 10:33:11</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-700italic.svg">
+      <publishTime>09/13/2018 10:33:11</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-700italic.ttf">
+      <publishTime>09/13/2018 10:33:11</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-700italic.woff">
+      <publishTime>09/13/2018 10:33:11</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-700italic.woff2">
+      <publishTime>09/13/2018 10:33:11</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-800.eot">
+      <publishTime>09/13/2018 10:33:11</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-800.svg">
+      <publishTime>09/13/2018 10:33:11</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-800.ttf">
+      <publishTime>09/13/2018 10:33:11</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-800.woff">
+      <publishTime>09/13/2018 10:33:11</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-800.woff2">
+      <publishTime>09/13/2018 10:33:12</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-italic.eot">
+      <publishTime>09/13/2018 10:33:12</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-italic.svg">
+      <publishTime>09/13/2018 10:33:12</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-italic.ttf">
+      <publishTime>09/13/2018 10:33:12</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-italic.woff">
+      <publishTime>09/13/2018 10:33:12</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-italic.woff2">
+      <publishTime>09/13/2018 10:33:12</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-regular.eot">
+      <publishTime>09/13/2018 10:33:12</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-regular.svg">
+      <publishTime>09/13/2018 10:33:12</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-regular.ttf">
+      <publishTime>09/13/2018 10:33:12</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-regular.woff">
+      <publishTime>09/13/2018 10:33:12</publishTime>
+    </File>
+    <File Include="Fonts/open-sans-v13-latin-regular.woff2">
+      <publishTime>09/13/2018 10:33:12</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>09/13/2018 10:33:04</publishTime>
+    </File>
+    <File Include="Images/Aatrox.webm">
+      <publishTime>09/13/2018 11:22:47</publishTime>
+    </File>
+    <File Include="Images/ahri.jpg">
+      <publishTime>09/13/2018 11:22:47</publishTime>
+    </File>
+    <File Include="Images/Akali.jpg">
+      <publishTime>09/13/2018 11:22:47</publishTime>
+    </File>
+    <File Include="Images/bilgewater-spotlight.jpg">
+      <publishTime>09/13/2018 11:22:47</publishTime>
+    </File>
+    <File Include="Images/carousel-climbing.jpg">
+      <publishTime>09/13/2018 10:33:12</publishTime>
+    </File>
+    <File Include="Images/carousel-cycling.jpg">
+      <publishTime>09/13/2018 10:33:12</publishTime>
+    </File>
+    <File Include="Images/carousel-hiking.jpg">
+      <publishTime>09/13/2018 10:33:12</publishTime>
+    </File>
+    <File Include="Images/carousel-skiing.jpg">
+      <publishTime>09/13/2018 10:33:12</publishTime>
+    </File>
+    <File Include="Images/climbing-events.jpg">
+      <publishTime>09/13/2018 10:33:12</publishTime>
+    </File>
+    <File Include="Images/Climbing-the-Face-of-Half-Dome.jpg">
+      <publishTime>09/13/2018 10:33:12</publishTime>
+    </File>
+    <File Include="Images/cycling-events.jpg">
+      <publishTime>09/13/2018 10:33:12</publishTime>
+    </File>
+    <File Include="Images/Cycling-from-Bangkok-to-Chiang-Mai.jpg">
+      <publishTime>09/13/2018 10:33:12</publishTime>
+    </File>
+    <File Include="Images/hiking-events.jpg">
+      <publishTime>09/13/2018 10:33:12</publishTime>
+    </File>
+    <File Include="Images/Hiking-the-Italian-Alps.jpg">
+      <publishTime>09/13/2018 10:33:12</publishTime>
+    </File>
+    <File Include="Images/league-of-legends_logo.png">
+      <publishTime>09/13/2018 14:40:33</publishTime>
+    </File>
+    <File Include="Images/Logo_400x60.png">
+      <publishTime>09/13/2018 10:33:12</publishTime>
+    </File>
+    <File Include="Images/nunu-color-story.jpg">
+      <publishTime>09/13/2018 11:22:47</publishTime>
+    </File>
+    <File Include="Images/odyssey-content.jpg">
+      <publishTime>09/13/2018 11:22:47</publishTime>
+    </File>
+    <File Include="Images/odyssey.jpg">
+      <publishTime>09/13/2018 11:22:46</publishTime>
+    </File>
+    <File Include="Images/odyssey_en_us.svg">
+      <publishTime>09/13/2018 11:22:46</publishTime>
+    </File>
+    <File Include="Images/Rock-Climbing-in-the-Czech-Republic.jpg">
+      <publishTime>09/13/2018 10:33:12</publishTime>
+    </File>
+    <File Include="Images/ryze call of power.jpg">
+      <publishTime>09/13/2018 11:22:47</publishTime>
+    </File>
+    <File Include="Images/ryze the burning lands.jpg">
+      <publishTime>09/13/2018 11:22:47</publishTime>
+    </File>
+    <File Include="Images/ryze-call-of-power.jpg">
+      <publishTime>09/13/2018 11:22:47</publishTime>
+    </File>
+    <File Include="Images/ryze-the-burning-lands.jpg">
+      <publishTime>09/13/2018 11:22:47</publishTime>
+    </File>
+    <File Include="Images/skiing-events.jpg">
+      <publishTime>09/13/2018 10:33:12</publishTime>
+    </File>
+    <File Include="Images/Skiing-the-Himalayas.jpg">
+      <publishTime>09/13/2018 10:33:12</publishTime>
+    </File>
+    <File Include="Images/space_odyssey_hero.webm">
+      <publishTime>09/13/2018 11:22:47</publishTime>
+    </File>
+    <File Include="Images/the eye in the abyss.jpg">
+      <publishTime>09/13/2018 11:22:47</publishTime>
+    </File>
+    <File Include="Images/the man with the grinning shadow.jpg">
+      <publishTime>09/13/2018 11:22:47</publishTime>
+    </File>
+    <File Include="Images/the-eye-in-the-abyss.jpg">
+      <publishTime>09/13/2018 11:22:47</publishTime>
+    </File>
+    <File Include="Images/the-man-with-the-grinning-shadow.jpg">
+      <publishTime>09/13/2018 11:22:47</publishTime>
+    </File>
+    <File Include="Images/velkoz-color-story.jpg">
+      <publishTime>09/13/2018 11:22:47</publishTime>
+    </File>
+    <File Include="Images/velkoz-spotlight.jpg">
+      <publishTime>09/13/2018 11:22:47</publishTime>
+    </File>
+    <File Include="Models/CarouselData.cs">
+      <publishTime>09/18/2018 09:20:52</publishTime>
+    </File>
+    <File Include="Models/CommentsData.cs">
+      <publishTime>09/19/2018 13:04:10</publishTime>
+    </File>
+    <File Include="Models/NavigationItem.cs">
+      <publishTime>09/18/2018 09:47:58</publishTime>
+    </File>
+    <File Include="Models/OverviewChampionItem.cs">
+      <publishTime>09/18/2018 09:20:33</publishTime>
+    </File>
+    <File Include="Models/OverviewStoryItem.cs">
+      <publishTime>09/18/2018 09:22:44</publishTime>
+    </File>
+    <File Include="Models/Repository.cs">
+      <publishTime>09/19/2018 08:12:29</publishTime>
+    </File>
+    <File Include="Models/SubscriberData.cs">
+      <publishTime>09/19/2018 08:14:01</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/17/2018 09:59:39</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>09/17/2018 09:59:38</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>09/17/2018 09:59:38</publishTime>
+    </File>
+    <File Include="Scripts/commentsForm.js">
+      <publishTime>09/19/2018 12:51:56</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>09/17/2018 09:59:33</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>09/17/2018 09:59:33</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>09/17/2018 09:59:33</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>09/17/2018 09:59:37</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>09/17/2018 09:59:37</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>09/17/2018 09:59:37</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>09/17/2018 09:59:37</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>09/17/2018 09:59:39</publishTime>
+    </File>
+    <File Include="Scripts/Navigation.js">
+      <publishTime>09/13/2018 10:33:19</publishTime>
+    </File>
+    <File Include="Scripts/Sitecore.Foundation.Theming.min.js">
+      <publishTime>09/13/2018 10:33:19</publishTime>
+    </File>
+    <File Include="Views/Breadcrumb/Index.cshtml">
+      <publishTime>09/18/2018 10:34:48</publishTime>
+    </File>
+    <File Include="Views/Carousel/CarouselChampion.cshtml">
+      <publishTime>09/18/2018 15:52:36</publishTime>
+    </File>
+    <File Include="Views/Carousel/Index.cshtml">
+      <publishTime>09/18/2018 14:10:55</publishTime>
+    </File>
+    <File Include="Views/ChampionsList/Index.cshtml">
+      <publishTime>09/20/2018 11:07:08</publishTime>
+    </File>
+    <File Include="Views/CommentsForm/Confirmation.cshtml">
+      <publishTime>09/19/2018 07:31:35</publishTime>
+    </File>
+    <File Include="Views/CommentsForm/Index.cshtml">
+      <publishTime>09/19/2018 13:39:46</publishTime>
+    </File>
+    <File Include="Views/LeagueOfSitecore/Layout/FeaturedStory.cshtml">
+      <publishTime>09/13/2018 11:44:14</publishTime>
+    </File>
+    <File Include="Views/LeagueOfSitecore/Layout/FeatureRow.cshtml">
+      <publishTime>09/13/2018 11:43:22</publishTime>
+    </File>
+    <File Include="Views/LeagueOfSitecore/Layout/HomeContent.cshtml">
+      <publishTime>09/13/2018 13:35:27</publishTime>
+    </File>
+    <File Include="Views/LeagueOfSitecore/Layout/Stories.cshtml">
+      <publishTime>09/13/2018 10:40:39</publishTime>
+    </File>
+    <File Include="Views/LeagueOfSitecore/Stories/Champion Details.cshtml">
+      <publishTime>09/13/2018 11:02:19</publishTime>
+    </File>
+    <File Include="Views/LeagueOfSitecore/Stories/Champion List.cshtml">
+      <publishTime>09/13/2018 10:52:42</publishTime>
+    </File>
+    <File Include="Views/LeagueOfSitecore/Stories/ChampionDetailsContent.cshtml">
+      <publishTime>09/18/2018 20:28:23</publishTime>
+    </File>
+    <File Include="Views/LeagueOfSitecore/Stories/ChampionListContent.cshtml">
+      <publishTime>09/18/2018 18:31:20</publishTime>
+    </File>
+    <File Include="Views/LeagueOfSitecore/Stories/FeaturedChampion.cshtml">
+      <publishTime>09/18/2018 16:35:39</publishTime>
+    </File>
+    <File Include="Views/LeagueOfSitecore/Stories/FeaturedStory.cshtml">
+      <publishTime>09/18/2018 06:58:57</publishTime>
+    </File>
+    <File Include="Views/LeagueOfSitecore/Stories/FeatureRow.cshtml">
+      <publishTime>09/14/2018 08:52:42</publishTime>
+    </File>
+    <File Include="Views/LeagueOfSitecore/Stories/FeatureRowStory.cshtml">
+      <publishTime>09/18/2018 06:46:12</publishTime>
+    </File>
+    <File Include="Views/LeagueOfSitecore/Stories/Footer.cshtml">
+      <publishTime>09/18/2018 19:35:28</publishTime>
+    </File>
+    <File Include="Views/LeagueOfSitecore/Stories/HomeContent.cshtml">
+      <publishTime>09/18/2018 16:38:03</publishTime>
+    </File>
+    <File Include="Views/LeagueOfSitecore/Stories/Layout/Champion Details.cshtml">
+      <publishTime>09/18/2018 18:13:37</publishTime>
+    </File>
+    <File Include="Views/LeagueOfSitecore/Stories/Layout/Champion List.cshtml">
+      <publishTime>09/18/2018 18:12:09</publishTime>
+    </File>
+    <File Include="Views/LeagueOfSitecore/Stories/Layout/Stories.cshtml">
+      <publishTime>09/18/2018 18:11:18</publishTime>
+    </File>
+    <File Include="Views/LeagueOfSitecore/Stories/Layout/Story Section.cshtml">
+      <publishTime>09/18/2018 18:11:24</publishTime>
+    </File>
+    <File Include="Views/LeagueOfSitecore/Stories/Navigation.cshtml">
+      <publishTime>09/19/2018 17:10:34</publishTime>
+    </File>
+    <File Include="Views/LeagueOfSitecore/Stories/PageHeader.cshtml">
+      <publishTime>09/17/2018 19:10:37</publishTime>
+    </File>
+    <File Include="Views/LeagueOfSitecore/Stories/Stories.cshtml">
+      <publishTime>09/13/2018 13:42:59</publishTime>
+    </File>
+    <File Include="Views/LeagueOfSitecore/Stories/Story Section Content.cshtml">
+      <publishTime>09/18/2018 16:44:52</publishTime>
+    </File>
+    <File Include="Views/LeagueOfSitecore/Stories/Story Section.cshtml">
+      <publishTime>09/13/2018 10:49:27</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>09/18/2018 19:25:36</publishTime>
+    </File>
+    <File Include="Views/SubscribeForm/Confirmation.cshtml">
+      <publishTime>09/19/2018 07:24:36</publishTime>
+    </File>
+    <File Include="Views/SubscribeForm/Index.cshtml">
+      <publishTime>09/19/2018 07:19:13</publishTime>
+    </File>
+    <File Include="Views/TAC/Events/Layout/ViewLayout1.cshtml">
+      <publishTime>11/15/2017 03:23:09</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>09/13/2018 10:33:19</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>09/17/2018 09:59:27</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/15/2017 03:23:49</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

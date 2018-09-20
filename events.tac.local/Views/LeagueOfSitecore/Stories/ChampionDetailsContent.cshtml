@@ -1,0 +1,90 @@
+﻿
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+
+}
+<!-- [Home Content] -->
+<header class="page-header">
+    <!-- [Homepage Carousell] -->
+    <div class="col-lg-8">@Html.Sitecore().Placeholder("breadcrumb-ph")</div>
+    <!-- [/Homepage Carousell] -->
+</header>
+<section class="section section-full">
+    <div class="container">
+        <div class="col-lg-12 text-center">
+            <h1 style="font-family: 'Frijole', cursive;color:#C4B998">@Html.Sitecore().Field("ContentHeading") - @Html.Sitecore().Field("ContentSubheading")</h1>
+        </div>
+
+        <div class="col-md-12 text-center">
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-10">
+                @Html.Sitecore().Field("Media", new { @class = "img-responsive", mw = 1000, mh = 666, DisableWebEdit = true })
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <hr />
+        <div class="col-lg-12">
+            <div class="col-lg-4">
+                <h4>Lore:</h4>
+                <h3 style="line-height: 1.6; color: #c4b998">@Html.Sitecore().Field("ChampionLore")</h3>
+            </div>
+            <div class="col-lg-4">
+                <h4>Role:</h4>
+                <h3 style="line-height: 1.6; color: #c4b998">@Html.Sitecore().Field("ChampionRole ")</h3>
+            </div>
+            <div class="col-lg-4">
+                <h4>Race:</h4>
+                <h3 style="line-height: 1.6; color: #c4b998">@Html.Sitecore().Field("ChampionRace")</h3>
+            </div>
+        </div>
+        <hr />
+
+        <div class="col-md-12 text-center text-justify">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-left">
+                <hr /><h2 style="line-height: 1.6; color: #c4b998"> @Html.Sitecore().Field("ContentIntro")</h2><hr />
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <br /><hr /><br />
+
+        <div class="col-md-12 text-center">
+            <h2>PREVIEW</h2>
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-left">
+                <h3 style="line-height: 1.6; color: #c4b998"> @Html.Sitecore().Field("ContentBody")</h3>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <br /><hr /><br />
+
+        <div class="col-md-12 text-center">
+            <h2>STORY</h2>
+            <div class="col-md-2"></div>
+            <div class="col-md-8 text-left text-justify">
+
+                <h3 style="font-family: Georgia, cursive;line-height: 1.6; color: #c4b998"> @Html.Sitecore().Field("StoryInfo")</h3>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+
+    </div>
+    <p><h1>More Champions</h1></p>
+    <span> @Html.Sitecore().Placeholder("champion-slides") </span>
+    <h4>Comments</h4>
+    <div>@Html.Sitecore().Placeholder("comments-ph")</div>
+    <div class="side-widget">
+        <h4 class="text-uppercase">New stories to come</h4>
+        <div class="sidebar">
+            <div class="text">Subscribe to our weekly newsletter and be the first to learn about league of legends story updates.</div>
+            @Html.Sitecore().Placeholder("subscribe-ph")
+        </div>
+    </div>
+
+</section>
+
+

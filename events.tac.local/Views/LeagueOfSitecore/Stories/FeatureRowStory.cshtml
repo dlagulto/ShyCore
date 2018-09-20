@@ -1,0 +1,20 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+
+}
+<div class="container">
+    <div class="row well @Model.Rendering.Parameters["ph_feature_spot_stories_count"]">
+        @Html.Sitecore().DynamicPlaceholder("feature_spot_stories", CreateDivWrap, 3, 6)
+    </div>
+</div>
+@functions{
+    TagBuilder CreateDivWrap(DynamicPlaceholderRenderContext context)
+    {
+        var tagBuilder = new TagBuilder("div");
+        int[] widths = new int[] { 0, 12, 6, 4, 3 };
+        tagBuilder.AddCssClass("col-sm-" + widths[context.PlaceholdersCount]);
+        return tagBuilder;
+    }
+}

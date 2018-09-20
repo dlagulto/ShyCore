@@ -1,0 +1,45 @@
+﻿<Project>
+  <PropertyGroup>
+    <Site Server="sc9.sc" UserName="sitecore\admin" IsRemoteSitecore="True" />
+  </PropertyGroup>
+  <File Include="/Views/LeagueOfSitecore/Stories/Stories.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="">{00000000-0000-0000-0000-000000000000}</Item>
+    <Item DatabaseName="master">{5844D46E-A529-4D8C-BAA1-CF1462ABA4B2}</Item>
+  </File>
+  <File Include="Views\LeagueOfSitecore\Stories\Layout\Stories.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{5844D46E-A529-4D8C-BAA1-CF1462ABA4B2}</Item>
+  </File>
+  <File Include="Views\LeagueOfSitecore\Stories\Layout\Story Section.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{84EF3501-CB05-48EA-BE5A-84B49DC5307E}</Item>
+  </File>
+  <File Include="/Views/LeagueOfSitecore/Layout/Story Section.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{84EF3501-CB05-48EA-BE5A-84B49DC5307E}</Item>
+  </File>
+  <File Include="Views\LeagueOfSitecore\Stories\Layout\Champion List.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{09C42651-4945-43FC-B30C-3DE116BAC481}</Item>
+  </File>
+  <File Include="/Views/LeagueOfSitecore/Layout/Champion List.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{09C42651-4945-43FC-B30C-3DE116BAC481}</Item>
+  </File>
+  <File Include="Views\LeagueOfSitecore\Stories\Layout\Champion Details.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{B2A6135E-CFC9-4B2E-BBE9-D4351F768CB7}</Item>
+  </File>
+  <File Include="/Views/LeagueOfSitecore/Layout/Champion Details.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{B2A6135E-CFC9-4B2E-BBE9-D4351F768CB7}</Item>
+  </File>
+  <File Include="Views\LeagueOfSitecore\Stories\FeatureRowStory.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{64DBB420-27FE-4F7D-A07B-C614DDB65D15}</Item>
+  </File>
+  <File Include="Views\LeagueOfSitecore\Stories\FeaturedStory.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{33DE88A0-57FC-4543-A785-49A05CCF38EE}</Item>
+  </File>
+  <File Include="Views\LeagueOfSitecore\Stories\HomeContent.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{1407AFEB-2398-4286-AD81-8C8237A8F008}</Item>
+  </File>
+  <File Include="Views\LeagueOfSitecore\Stories\FeaturedChampion.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{EE9D9653-66D2-4B57-9797-60A48BFF3638}</Item>
+  </File>
+  <File Include="Views\LeagueOfSitecore\Stories\PageHeader.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{E7584D16-3630-46B4-BFE7-9E948AAF21F8}</Item>
+  </File>
+</Project>

@@ -1,0 +1,75 @@
+﻿@using Sitecore.Mvc;
+@using Sitecore.Data.Items;
+@using Sitecore.Links;
+
+<style>
+    .carousel-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        max-height: 500px;
+        object-fit: fill;
+        image-rendering: optimizeQuality;
+    }
+</style>
+
+@model List<Item>
+<div class="container-fluid">
+    <div class="CarouselWrapper">
+        <div id="TGBasicCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                @for (int i = 0; i < Model.Count; i++)
+                {
+                    if (Model[i].Name != "Champion")
+                    {
+                        <li data-target="#TGBasicCarousel" data-slide-to="@i"></li>
+                    }
+                }
+            </ol>
+            <div class="carousel-inner">
+                @for (int i = 0; i < Model.Count; i++)
+                {
+                    if (Model[i].Name != "Champion")
+                    {
+                        <div class="carousel-item">
+                            <div class="jumbotron jumbotron-xl bg-media">
+                                @Html.Sitecore().Field("DecorationBanner", Model[i], new {@class="carousel-img" })
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h2 style="opacity:0.5">@Html.Sitecore().Field("ContentHeading", Model[i])</h2>
+                                            <p class="lead">@Html.Sitecore().Field("SectionHeader", Model[i])</p>
+                                            <a class="btn btn-hollow btn-lg" href="@LinkManager.GetItemUrl(Model[i])">Read more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        @*
+                            @Html.Sitecore().Field("DecorationBanner", Model[i], new { width = 1500, height = 533 })
+                        *@
+
+                    }
+                }
+            </div>
+            <a class="carousel-control-prev" href="#TGBasicCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#TGBasicCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        //make first slide and indicator appear/active
+        $('#TGBasicCarousel').find('.carousel-item').first().addClass('active');
+        $('#TGBasicCarousel .carousel-indicators').find('li').first().addClass('active');
+    });
+</script>

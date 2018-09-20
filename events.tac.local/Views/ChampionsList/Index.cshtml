@@ -1,0 +1,32 @@
+﻿@using events.tac.local.Models
+@using TAC.Utils.Helpers
+@model ChampionsList
+    <!-- [Champions List] -->
+    <div class="content-list newslist">
+        <ol class="media-list">
+            @foreach (var st in Model.Stories)
+            {
+                <li class="media media-align-middle">
+                    <div class="media-left">
+                        <a href="@st.Url">@st.Media</a>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="media-heading">
+                            <a href="@st.Url">@st.ChampionName</a>
+                        </h3>
+                        <div class="description">
+                            @st.ContentHeading
+                            <p>@st.ContentIntro</p>                         
+                        </div>
+                    </div>
+                    <div class="metadata well">
+                    <span class="well">@st.ChampionLore</span>
+                    <span class="well">@st.ChampionRole</span>
+                    <span class="well">@st.ChampionRace</span>
+                    </div>                    
+                </li>
+            }
+        </ol>
+    </div>
+    <!-- [Champions List] -->
+    @Html.Pager(Model.PageSize, Model.TotalResultCount)

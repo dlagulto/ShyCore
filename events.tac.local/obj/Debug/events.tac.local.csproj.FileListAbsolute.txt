@@ -1,0 +1,80 @@
+C:\vsProjects\TAC\events.tac.local\bin\roslyn\csc.exe
+C:\vsProjects\TAC\events.tac.local\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\vsProjects\TAC\events.tac.local\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\vsProjects\TAC\events.tac.local\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\vsProjects\TAC\events.tac.local\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\vsProjects\TAC\events.tac.local\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\vsProjects\TAC\events.tac.local\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\vsProjects\TAC\events.tac.local\bin\roslyn\System.Collections.Immutable.dll
+C:\vsProjects\TAC\events.tac.local\bin\roslyn\System.Reflection.Metadata.dll
+C:\vsProjects\TAC\events.tac.local\bin\roslyn\vbc.exe
+C:\vsProjects\TAC\events.tac.local\bin\roslyn\VBCSCompiler.exe
+C:\vsProjects\TAC\events.tac.local\bin\roslyn\VBCSCompiler.exe.config
+C:\vsProjects\TAC\events.tac.local\bin\events.tac.local.dll.config
+C:\vsProjects\TAC\events.tac.local\bin\events.tac.local.dll
+C:\vsProjects\TAC\events.tac.local\bin\events.tac.local.pdb
+C:\vsProjects\TAC\events.tac.local\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\vsProjects\TAC\events.tac.local\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\vsProjects\TAC\events.tac.local\bin\Microsoft.Web.Infrastructure.dll
+C:\vsProjects\TAC\events.tac.local\bin\Newtonsoft.Json.dll
+C:\vsProjects\TAC\events.tac.local\bin\Sitecore.Analytics.Core.dll
+C:\vsProjects\TAC\events.tac.local\bin\Sitecore.Analytics.dll
+C:\vsProjects\TAC\events.tac.local\bin\Sitecore.Analytics.Model.dll
+C:\vsProjects\TAC\events.tac.local\bin\Sitecore.Kernel.dll
+C:\vsProjects\TAC\events.tac.local\bin\Sitecore.Mvc.Analytics.dll
+C:\vsProjects\TAC\events.tac.local\bin\Sitecore.Mvc.dll
+C:\vsProjects\TAC\events.tac.local\bin\System.Web.Helpers.dll
+C:\vsProjects\TAC\events.tac.local\bin\System.Web.Mvc.dll
+C:\vsProjects\TAC\events.tac.local\bin\System.Web.Razor.dll
+C:\vsProjects\TAC\events.tac.local\bin\System.Web.WebPages.Deployment.dll
+C:\vsProjects\TAC\events.tac.local\bin\System.Web.WebPages.dll
+C:\vsProjects\TAC\events.tac.local\bin\System.Web.WebPages.Razor.dll
+C:\vsProjects\TAC\events.tac.local\bin\TAC.Utils.dll
+C:\vsProjects\TAC\events.tac.local\bin\TAC.Utils.pdb
+C:\vsProjects\TAC\events.tac.local\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\vsProjects\TAC\events.tac.local\bin\System.Web.Helpers.xml
+C:\vsProjects\TAC\events.tac.local\bin\System.Web.Mvc.xml
+C:\vsProjects\TAC\events.tac.local\bin\System.Web.Razor.xml
+C:\vsProjects\TAC\events.tac.local\bin\System.Web.WebPages.xml
+C:\vsProjects\TAC\events.tac.local\bin\System.Web.WebPages.Deployment.xml
+C:\vsProjects\TAC\events.tac.local\bin\System.Web.WebPages.Razor.xml
+C:\vsProjects\TAC\events.tac.local\obj\Debug\events.tac.local.csprojResolveAssemblyReference.cache
+C:\vsProjects\TAC\events.tac.local\obj\Debug\events.tac.local.dll
+C:\vsProjects\TAC\events.tac.local\obj\Debug\events.tac.local.pdb
+C:\vsProjects\TAC\events.tac.local\bin\Sitecore.ContentSearch.dll
+C:\vsProjects\TAC\events.tac.local\bin\Sitecore.ContentSearch.Linq.dll
+C:\Training\Student Folder\TAC\events.tac.local\bin\roslyn\csc.exe
+C:\Training\Student Folder\TAC\events.tac.local\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Training\Student Folder\TAC\events.tac.local\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Training\Student Folder\TAC\events.tac.local\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Training\Student Folder\TAC\events.tac.local\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Training\Student Folder\TAC\events.tac.local\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Training\Student Folder\TAC\events.tac.local\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Training\Student Folder\TAC\events.tac.local\bin\roslyn\System.Collections.Immutable.dll
+C:\Training\Student Folder\TAC\events.tac.local\bin\roslyn\System.Reflection.Metadata.dll
+C:\Training\Student Folder\TAC\events.tac.local\bin\roslyn\vbc.exe
+C:\Training\Student Folder\TAC\events.tac.local\bin\roslyn\VBCSCompiler.exe
+C:\Training\Student Folder\TAC\events.tac.local\bin\roslyn\VBCSCompiler.exe.config
+C:\Training\Student Folder\TAC\events.tac.local\bin\events.tac.local.dll.config
+C:\Training\Student Folder\TAC\events.tac.local\bin\events.tac.local.dll
+C:\Training\Student Folder\TAC\events.tac.local\bin\events.tac.local.pdb
+C:\Training\Student Folder\TAC\events.tac.local\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Training\Student Folder\TAC\events.tac.local\bin\Microsoft.Web.Infrastructure.dll
+C:\Training\Student Folder\TAC\events.tac.local\bin\System.Web.Helpers.dll
+C:\Training\Student Folder\TAC\events.tac.local\bin\System.Web.Mvc.dll
+C:\Training\Student Folder\TAC\events.tac.local\bin\System.Web.Razor.dll
+C:\Training\Student Folder\TAC\events.tac.local\bin\System.Web.WebPages.Deployment.dll
+C:\Training\Student Folder\TAC\events.tac.local\bin\System.Web.WebPages.dll
+C:\Training\Student Folder\TAC\events.tac.local\bin\System.Web.WebPages.Razor.dll
+C:\Training\Student Folder\TAC\events.tac.local\bin\TAC.Utils.dll
+C:\Training\Student Folder\TAC\events.tac.local\bin\TAC.Utils.pdb
+C:\Training\Student Folder\TAC\events.tac.local\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Training\Student Folder\TAC\events.tac.local\bin\System.Web.Helpers.xml
+C:\Training\Student Folder\TAC\events.tac.local\bin\System.Web.Mvc.xml
+C:\Training\Student Folder\TAC\events.tac.local\bin\System.Web.Razor.xml
+C:\Training\Student Folder\TAC\events.tac.local\bin\System.Web.WebPages.xml
+C:\Training\Student Folder\TAC\events.tac.local\bin\System.Web.WebPages.Deployment.xml
+C:\Training\Student Folder\TAC\events.tac.local\bin\System.Web.WebPages.Razor.xml
+C:\Training\Student Folder\TAC\events.tac.local\obj\Debug\events.tac.local.csprojResolveAssemblyReference.cache
+C:\Training\Student Folder\TAC\events.tac.local\obj\Debug\events.tac.local.dll
+C:\Training\Student Folder\TAC\events.tac.local\obj\Debug\events.tac.local.pdb

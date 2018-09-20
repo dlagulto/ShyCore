@@ -1,0 +1,22 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+
+}
+
+<!-- [Home Content] -->
+<header class="page-header">
+    <!-- [Homepage Carousell] -->
+
+    @Html.Sitecore().Placeholder("carousel-slides")
+    <!-- [/Homepage Carousell] -->
+</header>
+<section class="section section-full">
+    <div class="container">
+        <!-- [Featured Events] -->
+        @Html.Sitecore().Placeholder("features-stories")
+        <!-- [/Featured Events] -->
+    </div>    
+</section>
+<!-- [/Home Content] -->
